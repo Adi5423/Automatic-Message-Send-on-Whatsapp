@@ -22,6 +22,7 @@ def send_message(name,mess):
     
     # Type the recipient's name
     pyautogui.typewrite(name)
+    time.sleep(.5)
     
     
     # Move the mouse to the search result
@@ -33,12 +34,12 @@ def send_message(name,mess):
     # Simulate down arrow key press to select the search result
     pyautogui.press('down') 
     pyautogui.press('enter')
-    time.sleep(0.5)
+    time.sleep(1)
     # to open the chat another approach 
     
     
     # pyautogui.press('enter')
-    time.sleep(1.2)
+    # time.sleep(1.2)
     
     # Click on the chat window
     # pyautogui.click(300, 200)  # Adjust the coordinates to match your screen

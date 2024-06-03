@@ -83,7 +83,7 @@ class LogoWidget(BoxLayout):
         app.root.clear_widgets()
         app.root.add_widget(MainUI())
 
-class MyApp(App):
+class Automatic_Messaging(App):
     def build(self):
         Window.clearcolor = (0.8, 0.6, 0.6, 1) # Set the background color here
         root = BoxLayout(orientation='vertical')
@@ -156,4 +156,4 @@ def start_hand_track(Check):
     cv2.destroyAllWindows()
 
 if __name__ == '__main__':
-    MyApp().run()
+    Automatic_Messaging().run()

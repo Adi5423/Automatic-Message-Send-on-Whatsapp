@@ -18,6 +18,7 @@ def send_message(name,mess):
     
     # Simulate Ctrl+F shortcut to search for the recipient's name
     pyautogui.hotkey('ctrl', 'f')
+    time.sleep(2)
     
     # Type the recipient's name
     pyautogui.typewrite(name)
